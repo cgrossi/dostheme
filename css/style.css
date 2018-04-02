@@ -1,0 +1,12 @@
+/*GRAY: #BBBBBB
+BLUE: #000084
+WHITE: #FFEFE7
+BLACK: #000000
+YELLOW: #FEFE54*/
+
+body {
+	font-family: terminal, monospace;
+}
+.row-header {
+	background: #BBBBBB;
+}
