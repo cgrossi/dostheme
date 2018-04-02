@@ -4,13 +4,28 @@ WHITE: #FFEFE7
 BLACK: #000000
 YELLOW: #FEFE54*/
 
-body {
+body, h1 {
 	font-family: terminal, monospace;
 	font-weight: bold;
 }
 
 nav {
 	padding-left: 15px;
+}
+
+main {
+	padding-left: 15px;
+	background: #000084;
+	color: #BBB;
+}
+
+h1 {
+	font-size: 20px;
+	color: #fff;
+}
+
+hr {
+	border: white;
 }
 nav span {
 	color: #000084;
