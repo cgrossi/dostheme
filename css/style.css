@@ -34,7 +34,6 @@ a:hover {
 
 hr {
 	margin-top: 0;
-	margin-bottom: 0;
 	border-top: 2px solid #fff;
 }
 
@@ -92,9 +91,9 @@ main a:hover {
 	color: #000;
 }
 
-.row-main {
+/*.row-main {
 	height: 400px;
-}
+}*/
 
 /* -----Footer----- */
 
