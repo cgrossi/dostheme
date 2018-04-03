@@ -5,13 +5,16 @@ BLACK: #000000
 YELLOW: #FEFE54*/
 
 /* -----Global----- */
+html {
+	background: #000084;
+}
 body, h1, h2 {
 	font-family: terminal, monospace;
 	font-weight: bold;
 }
 
 h1, h2, h3{
-	font-size: 20px;
+	font-size: 18px;
 	color: #fff;
 }
 
@@ -32,12 +35,15 @@ a:hover {
 hr {
 	margin-top: 0;
 	margin-bottom: 0;
-	border: 0;
 	border-top: 2px solid #fff;
-	padding-right: 75px;
 }
 
-/* -----Nav----- */
+ul {
+	list-style-type: none;
+}
+
+/* -----Header----- */
+
 nav {
 	padding-left: 15px;
 }
@@ -51,14 +57,43 @@ nav span {
 }
 
 /* -----Main----- */
+
 main {
+	padding-top: 20px;
 	padding-left: 15px;
+	padding-right: 200px;
 	background: #000084;
 	color: #BBB;
 }
 
+main h1 {
+	text-transform: uppercase;
+}
+
+main h2 {
+	margin-bottom: 0px;
+}
+
+main a {
+	color: #FEFE54;
+}
+
+main a:hover {
+	color: #FEFE54;
+	text-decoration: none;
+	background: #000084;
+}
+
+#box-button {
+	display: inline-block;
+	padding: 10px;
+	box-shadow: 10px 10px #000;
+	background: #BBB;
+	color: #000;
+}
+
 .row-main {
-	height: 75vh;
+	height: 400px;
 }
 
 /* -----Footer----- */
@@ -66,6 +101,14 @@ main {
 footer {
 	padding-top: 20px;
 	padding-left: 15px;
+	padding-right: 200px;
+	padding-bottom: 25px;
 	background: #000084;
 	color: #BBB;
+}
+
+footer h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 0;
 }
