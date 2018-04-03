@@ -4,31 +4,15 @@ WHITE: #FFEFE7
 BLACK: #000000
 YELLOW: #FEFE54*/
 
-body, h1 {
+/* -----Global----- */
+body, h1, h2 {
 	font-family: terminal, monospace;
 	font-weight: bold;
 }
 
-nav {
-	padding-left: 15px;
-}
-
-main {
-	padding-left: 15px;
-	background: #000084;
-	color: #BBB;
-}
-
-h1 {
+h1, h2, h3{
 	font-size: 20px;
 	color: #fff;
-}
-
-hr {
-	border: white;
-}
-nav span {
-	color: #000084;
 }
 
 a {
@@ -45,6 +29,43 @@ a:hover {
 	padding: 1px 3px;
 }
 
+hr {
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 0;
+	border-top: 2px solid #fff;
+	padding-right: 75px;
+}
+
+/* -----Nav----- */
+nav {
+	padding-left: 15px;
+}
+
 nav {
 	background: #BBB;
+}
+
+nav span {
+	color: #000084;
+}
+
+/* -----Main----- */
+main {
+	padding-left: 15px;
+	background: #000084;
+	color: #BBB;
+}
+
+.row-main {
+	height: 75vh;
+}
+
+/* -----Footer----- */
+
+footer {
+	padding-top: 20px;
+	padding-left: 15px;
+	background: #000084;
+	color: #BBB;
 }
